@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Literata", "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", "Manrope", "Inter", sans-serif;
+  --color-brand-cream: #fbf9f5;
+  --color-brand-earth: #5A3E2D;
+  --color-brand-rose: #8c4b5a;
+  --color-brand-blue: #486369;
+  --color-brand-sand: #F9EFE7;
+  --color-brand-soft-rose: #DF91A2;
+  --color-brand-baby-blue: #D8F5FD;
+}
+
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-earth);
+  font-family: var(--font-sans);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Custom scrollbar matching luxury theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8c1be;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8c4b5a;
+}

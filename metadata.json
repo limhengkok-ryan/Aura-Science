@@ -1,0 +1,8 @@
+{
+  "name": "Aura Science Skincare Personalization",
+  "description": "Clinical luxury skincare personalized in real time using advanced dermatological analysis and AI-driven match recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
